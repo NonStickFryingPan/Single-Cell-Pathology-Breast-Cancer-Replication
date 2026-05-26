@@ -1,0 +1,102 @@
+[
+  {
+    "figure": 1,
+    "filename": "images/figure_01_data-funnel.png",
+    "title": "Data Funnel",
+    "cell": 6,
+    "output": 1,
+    "width": 840,
+    "height": 840,
+    "sourceFirst": "funnel_steps <- c(\"Long marker rows\", \"Unique sampled cells\", \"Wide cell table\","
+  },
+  {
+    "figure": 2,
+    "filename": "images/figure_02_marker-expression-distributions.png",
+    "title": "Marker Expression Distributions",
+    "cell": 6,
+    "output": 2,
+    "width": 840,
+    "height": 840,
+    "sourceFirst": "funnel_steps <- c(\"Long marker rows\", \"Unique sampled cells\", \"Wide cell table\","
+  },
+  {
+    "figure": 3,
+    "filename": "images/figure_03_demo-cluster-marker-heatmap.png",
+    "title": "Demo Cluster Marker Heatmap",
+    "cell": 9,
+    "output": 2,
+    "width": 840,
+    "height": 840,
+    "sourceFirst": "hm_markers <- head(protein_markers, min(12, length(protein_markers)))"
+  },
+  {
+    "figure": 4,
+    "filename": "images/figure_04_t-sne-cell-landscape.png",
+    "title": "t-SNE Cell Landscape",
+    "cell": 10,
+    "output": 2,
+    "width": 840,
+    "height": 840,
+    "sourceFirst": "tsne_cols <- setdiff(names(tsne_paper), c(\"core\", \"CellId\", \"id\"))"
+  },
+  {
+    "figure": 5,
+    "filename": "images/figure_05_phenotype-abundance-bar-plot.png",
+    "title": "Phenotype Abundance Bar Plot",
+    "cell": 12,
+    "output": 1,
+    "width": 840,
+    "height": 840,
+    "sourceFirst": "cluster_cols <- grep(\"^Cluster_\", names(abund_wide), value = TRUE)"
+  },
+  {
+    "figure": 6,
+    "filename": "images/figure_06_kaplan-meier-survival-curves.png",
+    "title": "Kaplan-Meier Survival Curves",
+    "cell": 13,
+    "output": 4,
+    "width": 840,
+    "height": 840,
+    "sourceFirst": "surv_data <- as.data.frame(merge(meta_data, abund_wide, by = \"core\", all = FALSE))"
+  },
+  {
+    "figure": 7,
+    "filename": "images/figure_07_hazard-ratio-forest-plot.png",
+    "title": "Hazard Ratio Forest Plot",
+    "cell": 14,
+    "output": 3,
+    "width": 840,
+    "height": 840,
+    "sourceFirst": "if (!exists(\"km_results\") || nrow(km_results) == 0) {"
+  },
+  {
+    "figure": 8,
+    "filename": "images/figure_08_spatial-cell-map.png",
+    "title": "Spatial Cell Map",
+    "cell": 16,
+    "output": 2,
+    "width": 840,
+    "height": 840,
+    "sourceFirst": "core_counts <- sc_wide["
+  },
+  {
+    "figure": 9,
+    "filename": "images/figure_09_spatial-mixing-basel-vs-zurich.png",
+    "title": "Spatial Mixing Basel vs Zurich",
+    "cell": 22,
+    "output": 1,
+    "width": 840,
+    "height": 840,
+    "sourceFirst": "get_mix_df <- function(x, cohort_name) {"
+  },
+  {
+    "figure": 10,
+    "filename": "images/figure_10_cohort-contribution-dashboard.png",
+    "title": "Cohort Contribution Dashboard",
+    "cell": 22,
+    "output": 2,
+    "width": 840,
+    "height": 840,
+    "sourceFirst": "get_mix_df <- function(x, cohort_name) {"
+  }
+]
