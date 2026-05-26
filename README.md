@@ -422,10 +422,6 @@ Use `SurvivalAnalysis_github.ipynb` as the main deliverable. Open it in Google C
 
 That means cells were sampled incorrectly by row. The original `SC_dat.csv` is long-format, so cells must be sampled by complete cell ID.
 
-### Zurich survival has zero usable rows
-
-That matches this run. Zurich still works for phenotype abundance, cluster matching, and spatial validation.
-
 ### Cox model warnings appear
 
 Cox model warnings can happen with rare clusters or small event counts. Report the warnings, use FDR-adjusted results, and treat diagnostics as part of the result rather than an error to hide.
