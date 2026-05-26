@@ -68,7 +68,6 @@ The notebook also runs a small independent PhenoGraph clustering demonstration o
 | --- | --- |
 | `SurvivalAnalysis_github.ipynb` | Cleaned notebook with outputs preserved. |
 | `images/` | Extracted PNG figures from the notebook outputs. |
-| `images/manifest.json` | Figure extraction manifest: filename, notebook cell, and output index. |
 | `README.md` | Project explanation, figure guide, key outputs, and run guide. |
 
 ## Results
