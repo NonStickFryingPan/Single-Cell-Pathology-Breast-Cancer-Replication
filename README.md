@@ -83,25 +83,6 @@ These figures are meant to show how raw single-cell tables become interpretable 
 
 Use `SurvivalAnalysis_github.ipynb` as the main deliverable. Open it in Google Colab, use an R runtime if available, and run the notebook from top to bottom. If Colab opens as Python, create an R notebook from https://colab.research.google.com/notebook#create=true&language=r, then load the notebook content there.
 
-Recommended configuration:
-
-```r
-CONFIG <- list(
-  COHORT = "both",
-  DOWNSAMPLE = 100000L,
-  SEED = 42L
-)
-```
-
-For a faster demonstration, switch to Basel only and reduce the sample size:
-
-```r
-CONFIG$COHORT <- "Basel"
-CONFIG$DOWNSAMPLE <- 50000L
-```
-
-GPU is not required. RAM and disk space matter more, especially while converting long-format marker tables into wide cell-by-marker matrices.
-
 ## Common Issues
 
 `Rphenograph` may not install from CRAN in Colab. The notebook installs it from GitHub using `JinmiaoChenLab/Rphenograph`.
